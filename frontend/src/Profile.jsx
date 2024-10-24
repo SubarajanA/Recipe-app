@@ -39,7 +39,7 @@ function Profile(){
                     <div className="recipe-card">
                         <p>DISH NAME:{recipe.dishname}</p>
                         <p>DESCRITION:{recipe.description}</p>
-                        <Button onclick={handledelete({recipe.dishid})}>DELETE</Button>
+                        <Button onclick={handledelete}>DELETE</Button>
                     </div>
                 ))}
             </div>
